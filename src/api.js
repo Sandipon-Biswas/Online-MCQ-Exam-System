@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from './auth';
 
 const API = axios.create({
-  baseURL: 'http://localhost:5000/api'
+  baseURL: 'https://online-mcq-exam-system.onrender.com/api'
 });
 
 API.interceptors.request.use((config) => {
